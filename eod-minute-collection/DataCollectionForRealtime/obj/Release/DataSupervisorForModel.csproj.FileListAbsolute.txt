@@ -1,0 +1,25 @@
+D:\data-supervisor-for-model\data-supervisor-for-model\DataCollectionForRealtime\bin\Release\DataSupervisorForModel.exe.config
+D:\data-supervisor-for-model\data-supervisor-for-model\DataCollectionForRealtime\obj\Release\Interop.CQG.dll
+D:\data-supervisor-for-model\data-supervisor-for-model\DataCollectionForRealtime\obj\Release\DataSupervisorForModel.csproj.ResolveComReference.cache
+D:\data-supervisor-for-model\data-supervisor-for-model\DataCollectionForRealtime\bin\Release\DataSupervisorForModel.exe
+D:\data-supervisor-for-model\data-supervisor-for-model\DataCollectionForRealtime\bin\Release\DataSupervisorForModel.pdb
+D:\data-supervisor-for-model\data-supervisor-for-model\DataCollectionForRealtime\bin\Release\AutoMapper.dll
+D:\data-supervisor-for-model\data-supervisor-for-model\DataCollectionForRealtime\bin\Release\MongoDB.Bson.dll
+D:\data-supervisor-for-model\data-supervisor-for-model\DataCollectionForRealtime\bin\Release\MongoDB.Driver.Core.dll
+D:\data-supervisor-for-model\data-supervisor-for-model\DataCollectionForRealtime\bin\Release\MongoDB.Driver.dll
+D:\data-supervisor-for-model\data-supervisor-for-model\DataCollectionForRealtime\bin\Release\Newtonsoft.Json.dll
+D:\data-supervisor-for-model\data-supervisor-for-model\DataCollectionForRealtime\bin\Release\AutoMapper.xml
+D:\data-supervisor-for-model\data-supervisor-for-model\DataCollectionForRealtime\bin\Release\MongoDB.Bson.xml
+D:\data-supervisor-for-model\data-supervisor-for-model\DataCollectionForRealtime\bin\Release\MongoDB.Driver.xml
+D:\data-supervisor-for-model\data-supervisor-for-model\DataCollectionForRealtime\bin\Release\Newtonsoft.Json.xml
+D:\data-supervisor-for-model\data-supervisor-for-model\DataCollectionForRealtime\obj\Release\DataSupervisorForModel.RealtimeDataManagement.resources
+D:\data-supervisor-for-model\data-supervisor-for-model\DataCollectionForRealtime\obj\Release\DataSupervisorForModel.Properties.Resources.resources
+D:\data-supervisor-for-model\data-supervisor-for-model\DataCollectionForRealtime\obj\Release\DataSupervisorForModel.csproj.GenerateResource.Cache
+D:\data-supervisor-for-model\data-supervisor-for-model\DataCollectionForRealtime\obj\Release\DataSupervisorForModel.exe
+D:\data-supervisor-for-model\data-supervisor-for-model\DataCollectionForRealtime\obj\Release\DataSupervisorForModel.pdb
+D:\data-supervisor-for-model\data-supervisor-for-model\DataCollectionForRealtime\obj\Release\DataSupervisorForModel.csprojResolveAssemblyReference.cache
+C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\bin\Release\DataSupervisorForModel.exe.config
+C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\obj\Release\Interop.CQG.dll
+C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\obj\Release\DataSupervisorForModel.csproj.ResolveComReference.cache
+C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\obj\Release\DataSupervisorForModel.exe
+C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\obj\Release\DataSupervisorForModel.pdb
