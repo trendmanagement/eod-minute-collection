@@ -1,4 +1,4 @@
-# Data Supervisor For Model
+# EOD Data Collection from CQG
 This software collects future bar data and feeds it into Mongodb
 
 Our current data provider is CQG.com
