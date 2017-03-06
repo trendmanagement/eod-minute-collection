@@ -89,8 +89,6 @@
     <Compile Include="DataCollectionLibrary.cs" />
     <Compile Include="DataManagementUtility.cs" />
     <Compile Include="DBsystem\MongoDBConnectionAndSetup.cs" />
-    <Compile Include="MongoClientOptions\Builder.cs" />
-    <Compile Include="OptionCalcs.cs" />
     <Compile Include="RealtimeDataManagement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,7 +98,6 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Model\RealtimeDataObjects.cs" />
-    <Compile Include="DBsystem\TMLDBReader.cs" />
     <Compile Include="TSErrorCatch.cs" />
     <EmbeddedResource Include="RealtimeDataManagement.resx">
       <DependentUpon>RealtimeDataManagement.cs</DependentUpon>

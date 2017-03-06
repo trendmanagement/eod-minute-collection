@@ -21,39 +21,6 @@ namespace DataSupervisorForModel
             threadCount++;
         }
 
-        public static double chooseOptionTickSize(double currentOptionPrice, double optionTickSize,
-            double secondaryOptionTickSize, double secondaryOptionTickSizeRule)
-        {
-
-            if (currentOptionPrice <= secondaryOptionTickSizeRule)
-            {
-                optionTickSize = secondaryOptionTickSize;
-            }
-
-            return optionTickSize;
-        }
-
-        public static double chooseOptionTickDisplay(double currentOptionPrice, double optionTickDisplay,
-            double secondaryOptionTickDisplay, double secondaryOptionTickSizeRule)
-        {
-
-            if (currentOptionPrice <= secondaryOptionTickSizeRule)
-            {
-                optionTickDisplay = secondaryOptionTickDisplay;
-            }
-
-            return optionTickDisplay;
-        }
-
-        public static double chooseOptionTickValue(double currentOptionPrice, double optionTickValue,
-            double secondaryOptionTickValue, double secondaryOptionTickSizeRule)
-        {
-            if (currentOptionPrice <= secondaryOptionTickSizeRule)
-            {
-                optionTickValue = secondaryOptionTickValue;
-            }
-
-            return optionTickValue;
-        }
+        
     }
 }
