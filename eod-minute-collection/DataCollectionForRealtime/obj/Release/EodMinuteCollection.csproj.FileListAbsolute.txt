@@ -1,11 +1,3 @@
-C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\obj\Release\EodMinuteCollection.csprojResolveAssemblyReference.cache
-C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\obj\Release\Interop.CQG.dll
-C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\obj\Release\EodMinuteCollection.csproj.ResolveComReference.cache
-C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\obj\Release\DataSupervisorForModel.RealtimeDataManagement.resources
-C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\obj\Release\DataSupervisorForModel.Properties.Resources.resources
-C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\obj\Release\EodMinuteCollection.csproj.GenerateResource.Cache
-C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\obj\Release\DataSupervisorForModel.exe
-C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\obj\Release\DataSupervisorForModel.pdb
 C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\bin\Release\DataSupervisorForModel.exe.config
 C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\bin\Release\DataSupervisorForModel.exe
 C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\bin\Release\DataSupervisorForModel.pdb
@@ -18,3 +10,10 @@ C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\Dat
 C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\bin\Release\MongoDB.Bson.xml
 C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\bin\Release\MongoDB.Driver.xml
 C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\bin\Release\Newtonsoft.Json.xml
+C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\obj\Release\Interop.CQG.dll
+C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\obj\Release\EodMinuteCollection.csproj.ResolveComReference.cache
+C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\obj\Release\DataSupervisorForModel.RealtimeDataManagement.resources
+C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\obj\Release\DataSupervisorForModel.Properties.Resources.resources
+C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\obj\Release\EodMinuteCollection.csproj.GenerateResource.Cache
+C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\obj\Release\DataSupervisorForModel.exe
+C:\Users\Steve Pickering\Desktop\eod-minute-collection\eod-minute-collection\DataCollectionForRealtime\obj\Release\DataSupervisorForModel.pdb

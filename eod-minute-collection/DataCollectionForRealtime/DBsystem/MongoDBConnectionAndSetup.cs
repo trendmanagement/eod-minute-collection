@@ -35,7 +35,7 @@ namespace DataSupervisorForModel
 
 
             _client = new MongoClient(
-                System.Configuration.ConfigurationManager.ConnectionStrings["LocalMongoConnection"].ConnectionString);
+                System.Configuration.ConfigurationManager.ConnectionStrings["DefaultMongoConnection"].ConnectionString);
 
 
             _database = _client.GetDatabase(System.Configuration.ConfigurationManager.AppSettings["MongoDbName"]);
@@ -271,7 +271,7 @@ namespace DataSupervisorForModel
 
                 var filterForContracts = builder.And(builder.In(x => x.idinstrument, instrumentIdList),
                             builder.Gte("expirationdate", queryDateTime.AddDays(-3)),
-                            builder.Lte("expirationdate", queryDateTime.AddYears(2)));
+                            builder.Lte("expirationdate", queryDateTime.AddYears(1)));
 
                 DataCollectionLibrary.contractList = _contractCollection.Find(filterForContracts).ToList();
 
