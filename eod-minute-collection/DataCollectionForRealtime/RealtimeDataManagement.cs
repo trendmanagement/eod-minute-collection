@@ -233,48 +233,26 @@ namespace DataSupervisorForModel
 
         private static void OnTimedEvent(Object source, System.Timers.ElapsedEventArgs e)
         {
-            Console.WriteLine("The Elapsed event was raised at {0}", e.SignalTime);
+            //Console.WriteLine("The Elapsed event was raised at {0}", e.SignalTime);
 
-            //if (DataCollectionLibrary.optionSpreadExpressionList.Count > 0)
-            {
+            //int staleCount = 0;
 
-                int staleCount = 0;
+            //foreach (OptionSpreadExpression ose in DataCollectionLibrary.optionSpreadExpressionList)
+            //{
+            //    double testspan = (DateTime.Now.TimeOfDay -
+            //                ose.lastTimeFuturePriceUpdated.TimeOfDay).TotalMinutes;
 
-                foreach (OptionSpreadExpression ose in DataCollectionLibrary.optionSpreadExpressionList)
-                {
-                    double testspan = (DateTime.Now.TimeOfDay -
-                                ose.lastTimeFuturePriceUpdated.TimeOfDay).TotalMinutes;
+            //    if (testspan > 15)
+            //    {
+            //        staleCount++;
+            //    }
+            //}
 
-                    if (testspan > 15)
-                    {
-                        //DataCollectionLibrary.contractSummaryGridListDataTable.Rows[ose.row][2] =
-                        // Convert.ToInt16(STALE_DATA_INDICATORS.VERY_STALE);
-
-                        //ose.staleData = STALE_DATA_INDICATORS.VERY_STALE;
-
-                        staleCount++;
-                    }
-                    //else if (testspan > 5)
-                    //{
-                    //    //DataCollectionLibrary.contractSummaryGridListDataTable.Rows[ose.row][2] =
-                    //    // Convert.ToInt16(STALE_DATA_INDICATORS.MILDLY_STALE);
-
-                    //    //ose.staleData = STALE_DATA_INDICATORS.MILDLY_STALE;
-                    //}
-                    //else
-                    //{
-                    //    //DataCollectionLibrary.contractSummaryGridListDataTable.Rows[ose.row][2] =
-                    //    // Convert.ToInt16(STALE_DATA_INDICATORS.UP_TO_DATE);
-
-                    //    //ose.staleData = STALE_DATA_INDICATORS.UP_TO_DATE;
-                    //}
-                }
-
-                if(staleCount >= DataCollectionLibrary.optionSpreadExpressionList.Count - 5)
-                {
-                    MongoDBConnectionAndSetup.MongoFailureMethod("CQG Data Stale");
-                }
-            }
+            //if(staleCount >= DataCollectionLibrary.optionSpreadExpressionList.Count - 5)
+            //{
+            //    MongoDBConnectionAndSetup.MongoFailureMethod("CQG Data Stale");
+            //}
+            
 
         }
 
