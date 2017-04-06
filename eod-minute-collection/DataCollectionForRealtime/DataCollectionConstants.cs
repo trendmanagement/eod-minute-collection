@@ -12,7 +12,7 @@ namespace DataSupervisorForModel
 
         //public const int MINUTES_IN_DAY = 1440;
 
-        //public const double EPSILON = 0.000000001;
+        public const double EPSILON = 0.000000001;
 
         //public const double ZERO_PRICE = 0.000001;
 

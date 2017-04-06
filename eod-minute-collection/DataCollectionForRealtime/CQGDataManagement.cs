@@ -453,18 +453,25 @@ namespace DataSupervisorForModel
 
                                 oid.idoptioninputsymbol = ose.optionInputSymbol.idoptioninputsymbol;
 
-                                oid.optioninputdatetime = new DateTime(cqg_TimedBarsIn[idxToAdd].Timestamp.Ticks, DateTimeKind.Utc);
+                                ///
+                                /// add a day to timestamp of timed bar in to reflect rate on current date
+                                ///
+                                oid.optioninputdatetime = new DateTime(cqg_TimedBarsIn[idxToAdd].Timestamp.AddDays(1).Ticks, DateTimeKind.Utc).Date;
 
                                 oid.optioninputopen = 0;
                                 oid.optioninputhigh = 0;
                                 oid.optioninputlow = 0;
                                 oid.optioninputclose = 0;
+                                
 
 
                                 if (cqg_TimedBarsIn[idxToAdd].Open
                                     != -DataCollectionConstants.CQG_DATA_ERROR_CODE)
                                 {
-                                    oid.optioninputopen = cqg_TimedBarsIn[idxToAdd].Open;
+                                    oid.optioninputopen = cqg_TimedBarsIn[idxToAdd].Open == 0 ? 
+                                        0 : ((int)((100 - cqg_TimedBarsIn[idxToAdd].Open + DataCollectionConstants.EPSILON) * 1000) / 1000.0);
+
+                                    //oid.optioninputopen = 100 - cqg_TimedBarsIn[idxToAdd].Open;
                                 }
                                 else
                                 {
@@ -474,7 +481,10 @@ namespace DataSupervisorForModel
                                 if (cqg_TimedBarsIn[idxToAdd].High
                                     != -DataCollectionConstants.CQG_DATA_ERROR_CODE)
                                 {
-                                    oid.optioninputhigh = cqg_TimedBarsIn[idxToAdd].High;
+                                    oid.optioninputhigh = cqg_TimedBarsIn[idxToAdd].High == 0 ?
+                                        0 : ((int)((100 - cqg_TimedBarsIn[idxToAdd].High + DataCollectionConstants.EPSILON) * 1000) / 1000.0);
+
+                                    //oid.optioninputhigh = 100 - cqg_TimedBarsIn[idxToAdd].High;
                                 }
                                 else
                                 {
@@ -484,7 +494,10 @@ namespace DataSupervisorForModel
                                 if (cqg_TimedBarsIn[idxToAdd].Low
                                     != -DataCollectionConstants.CQG_DATA_ERROR_CODE)
                                 {
-                                    oid.optioninputlow = cqg_TimedBarsIn[idxToAdd].Low;
+                                    oid.optioninputlow = cqg_TimedBarsIn[idxToAdd].Low == 0 ?
+                                        0 : ((int)((100 - cqg_TimedBarsIn[idxToAdd].Low + DataCollectionConstants.EPSILON) * 1000) / 1000.0);
+
+                                    //oid.optioninputlow = 100 - cqg_TimedBarsIn[idxToAdd].Low;
                                 }
                                 else
                                 {
@@ -494,12 +507,15 @@ namespace DataSupervisorForModel
                                 if (cqg_TimedBarsIn[idxToAdd].Close
                                     != -DataCollectionConstants.CQG_DATA_ERROR_CODE)
                                 {
-                                    oid.optioninputclose = cqg_TimedBarsIn[idxToAdd].Close;
+                                    oid.optioninputclose = cqg_TimedBarsIn[idxToAdd].Close == 0 ?
+                                        0 : ((int)((100 - cqg_TimedBarsIn[idxToAdd].Close + DataCollectionConstants.EPSILON) * 1000) / 1000.0);
+
+                                    //oid.optioninputclose = 100 - cqg_TimedBarsIn[idxToAdd].Close;
                                 }
                                 else
                                 {
                                     error = true;
-                                }                                
+                                }
 
 
                                 if (!error)

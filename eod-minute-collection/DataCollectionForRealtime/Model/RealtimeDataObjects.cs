@@ -68,6 +68,8 @@ namespace DataSupervisorForModel
         [BsonRepresentation(BsonType.Double)]
         public double optioninputclose { get; set; }
 
+
+
     };
 
     public class TheoreticalBar
