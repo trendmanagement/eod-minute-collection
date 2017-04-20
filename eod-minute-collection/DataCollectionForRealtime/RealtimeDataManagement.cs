@@ -616,32 +616,7 @@ namespace DataSupervisorForModel
 
         private void expressionListDataGrid_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
-            try
-            {
-                //if (!Convert.IsDBNull(DataCollectionLibrary.contractSummaryGridListDataTable.Rows[e.RowIndex][2])
-                //    && e.ColumnIndex == 2)
-                if(false)
-                {
-                    if (Convert.ToInt16(DataCollectionLibrary.contractSummaryGridListDataTable.Rows[e.RowIndex][2])
-                        == Convert.ToInt16(STALE_DATA_INDICATORS.UP_TO_DATE))
-                    {
-                        e.CellStyle.BackColor = Color.Green;
-                    }
-                    else if (Convert.ToInt16(DataCollectionLibrary.contractSummaryGridListDataTable.Rows[e.RowIndex][2])
-                        == Convert.ToInt16(STALE_DATA_INDICATORS.MILDLY_STALE))
-                    {
-                        e.CellStyle.BackColor = Color.Yellow;
-                    }
-                    else
-                    {
-                        e.CellStyle.BackColor = Color.Red;
-                    }
-                }
-            }
-            catch(Exception ee)
-            {
-                Console.WriteLine(ee.ToString());
-            }
+
         }
     }
 }
